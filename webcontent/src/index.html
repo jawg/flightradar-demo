@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Radar 14 Juillet 2017</title>
+  <meta name="description" content=""/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+  <link rel="icon" type="image/png" href="img/logo.png"/>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="root"></div>
+<script>
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: "https://tile.jawg.io/8b5dadb4-7b8b-487b-903d-cf8b68a34081.json?access-token=IP0rUgIapE6RZqf8827e2LbmEVFqUaVzKHQSHBKzkAGDh02VWvFK7x6H5nsAm47c",
+    zoom: 15,
+    center: [48.7965913, 2.3210938]
+  });
+</script>
+</body>
+</html>
